@@ -1,0 +1,7 @@
+name: nbacademy
+
+dependencies:
+  - pip
+  - pip:
+    - mkdocs
+    - mkdocs-material
