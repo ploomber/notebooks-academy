@@ -1,0 +1,7 @@
+.center {
+    text-align: center;
+}
+
+#email-text-field, #submit-btn {
+    display: inline;
+}
