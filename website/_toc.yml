@@ -4,6 +4,15 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: lessons/01-prototype-then-refactor.md
+- file: lessons/02-clean-nbs.md
+- file: lessons/03-version-control.md
+- file: lessons/04-hidden-state.md
+- file: lessons/05-modularization.md
+- file: lessons/06-refactoring.md
+- file: lessons/07-data-pipelines.md
+- file: lessons/08-integration-testing.md
+- file: lessons/09-debugging.md
+- file: lessons/10-cloud.md
+- file: lessons/11-meta-analysis.md
+- file: lessons/12-deployment.md
