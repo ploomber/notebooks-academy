@@ -1,6 +1,0 @@
-name: nbacademy
-
-dependencies:
-  - pip
-  - pip:
-    - jupyter-book
