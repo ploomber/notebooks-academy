@@ -9,7 +9,6 @@ build:
     pre_build:
       - "jupyter-book config sphinx website/"
 
-
 python:
   install:
     - method: pip
@@ -18,5 +17,6 @@ python:
       - sphinx
 
 sphinx:
+  configuration: website/conf.py
   builder: html
   fail_on_warning: true
