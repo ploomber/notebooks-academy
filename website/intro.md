@@ -4,7 +4,7 @@
 
 # Notebooks Academy
 
-This online course will teach you how to use **Jupyter notebooks in a maintainable way** so you can write clean, reproducible code.
+This online course will teach you how to use **Jupyter notebooks in a maintainable way** so you can write clean, reproducible, and production-ready code.
 
 <div id="newsletter">
 
