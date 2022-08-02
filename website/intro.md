@@ -6,6 +6,8 @@
 
 This online course will teach you how to use **Jupyter notebooks in a maintainable way** so you can write clean, reproducible, and production-ready code.
 
+**[Aug 1st, 2022] Important: Our newsletter service provider is down, so please [join our Slack](https://ploomber.io/community) to sign up for the course. We'll remove this message once the form below is working again.**
+
 <div id="newsletter">
 
 <div class="newsletter-copy"><b>Subscribe to get the lessons delivered as soon as they're out:</b></div>
