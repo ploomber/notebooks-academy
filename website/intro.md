@@ -27,6 +27,13 @@ This online course will teach you how to use **Jupyter notebooks in a maintainab
 </div>
 
 
+
+[Click here to tell your friends on Twitter!](https://twitter.com/intent/tweet?text=%F0%9F%8E%93%F0%9F%93%99%20I%20signed%20up%20for%20the%20Notebooks%20Academy%20course%20by%20%40Ploomber.%20You%20should%20join%2C%20too%21&url=https://notebooks.academy)
+
+[Click here to tell your friends on LinkedIn!](https://www.linkedin.com/sharing/share-offsite/?url=https://notebooks.academy/en/latest/intro.html)
+
+
+
 <div class="center">
     <a href="https://ploomber.io/community"><img src="_static/slack.png" width="60" height="60" class="social"></a>
   <a href="https://linkedin.com/companies/ploomber"><img src="_static/Linkedin.png" width="40" height="40" class="social"></a>
