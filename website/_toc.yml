@@ -15,4 +15,5 @@ chapters:
 - file: lessons/09-debugging.md
 - file: lessons/10-cloud.md
 - file: lessons/11-meta-analysis.md
-- file: lessons/12-deployment.md
+- file: lessons/12-sql.md
+- file: lessons/13-deployment.md
