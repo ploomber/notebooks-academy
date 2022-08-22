@@ -2,12 +2,12 @@ tasks:
 
 - source: tasks/data-loading.ipynb
   product:
-    name: output/data-loading-name.pkl
+    path_to_dir: output/data-loading-path_to_dir.pkl
     nb: output/data-loading.ipynb
 
 - source: tasks/parsing-jsons-into-a-data-frame.ipynb
   product:
-    df: output/parsing-jsons-into-a-data-frame-df.parquet
+    df: output/parsing-jsons-into-a-data-frame-df.pkl
     nb: output/parsing-jsons-into-a-data-frame.ipynb
 
 - source: tasks/artists.ipynb
@@ -16,8 +16,8 @@ tasks:
 
 - source: tasks/tags.ipynb
   product:
-    df: output/tags-df.parquet
-    df_tagged: output/tags-df_tagged.parquet
+    df_tagged: output/tags-df_tagged.pkl
+    df: output/tags-df.pkl
     nb: output/tags.ipynb
 
 - source: tasks/tracks-tagged-as-rock-.ipynb

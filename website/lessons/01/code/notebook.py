@@ -59,7 +59,7 @@ if not path_to_dir.exists():
 # you can set this value to a number to only load a few files
 n = None
 
-files_all = iglob(f"{name}/**/*.json", recursive=True)
+files_all = iglob(f"{path_to_dir}/**/*.json", recursive=True)
 
 if n is not None:
     files = [next(files_all) for _ in range(n)]

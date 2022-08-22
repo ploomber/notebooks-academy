@@ -73,7 +73,7 @@ pip install soorgeon
 mkdir pipeline
 cd pipeline
 
-soorgeon refactor ../notebook.ipynb --df-format parquet
+soorgeon refactor ../notebook.ipynb
 ```
 
 ### Get involved!
