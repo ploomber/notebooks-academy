@@ -22,6 +22,36 @@ Fun fact: this course is being entirely developed from Jupyter!
 
 ## Preparing your environment
 
+## Commands used in the lesson
+
+```sh
+cd website/lessons/01/code
+```
+
+Convert `.ipynb` to `.py`
+
+```sh
+pip install jupytext
+jupytext notebook.ipynb --to py:percent
+```
+
+Run unit tests:
+
+```sh
+pytest test_notebook.py
+```
+
+Generate data pipeline:
+
+```sh
+pip install soorgeon
+
+mkdir pipeline
+cd pipeline
+
+soorgeon refactor ../notebook.ipynb --df-format parquet
+```
+
 ## Getting help
 
 [Join our community](https://ploomber.io/community), and ask us anything in the `#notebooks-academy` channel

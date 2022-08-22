@@ -4,7 +4,7 @@ from ploomber_engine.ipython import PloomberClient
 
 @pytest.fixture
 def defs():
-    client = PloomberClient.from_path("clean-notebook/notebook.ipynb")
+    client = PloomberClient.from_path("notebook.ipynb")
     return client.get_definitions()
 
 

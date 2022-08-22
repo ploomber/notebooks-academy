@@ -1,0 +1,8 @@
+ploomber-engine
+jupytext
+seaborn
+pandas
+pytest
+soorgeon
+ploomber
+pyarrow
