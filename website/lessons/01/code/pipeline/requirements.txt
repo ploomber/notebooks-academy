@@ -1,0 +1,5 @@
+# Auto-generated file, may need manual editing
+pandas
+ploomber>=0.14.7
+pyarrow
+seaborn

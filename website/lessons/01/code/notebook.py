@@ -34,9 +34,10 @@ import seaborn as sns
 home = Path('~/noteboooks-academy/data').expanduser()
 home.mkdir(exist_ok=True, parents=True)
 
-url = "http://millionsongdataset.com/sites/default/files/lastfm/lastfm_test.zip"
-path_to_zip = Path(home, "lastfm_test.zip")
-path_to_dir = Path(home, "lastfm_test")
+name = "lastfm_test"
+url = f"http://millionsongdataset.com/sites/default/files/lastfm/{name}.zip"
+path_to_zip = Path(home, f"{name}.zip")
+path_to_dir = Path(home, name)
 
 if not path_to_zip.exists():
     print(f'downloading: {path_to_zip}')
@@ -58,7 +59,7 @@ if not path_to_dir.exists():
 # you can set this value to a number to only load a few files
 n = None
 
-files_all = iglob("lastfm_test/**/*.json", recursive=True)
+files_all = iglob(f"{name}/**/*.json", recursive=True)
 
 if n is not None:
     files = [next(files_all) for _ in range(n)]

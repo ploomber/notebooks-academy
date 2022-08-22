@@ -1,0 +1,25 @@
+tasks:
+
+- source: tasks/data-loading.ipynb
+  product:
+    name: output/data-loading-name.pkl
+    nb: output/data-loading.ipynb
+
+- source: tasks/parsing-jsons-into-a-data-frame.ipynb
+  product:
+    df: output/parsing-jsons-into-a-data-frame-df.parquet
+    nb: output/parsing-jsons-into-a-data-frame.ipynb
+
+- source: tasks/artists.ipynb
+  product:
+    nb: output/artists.ipynb
+
+- source: tasks/tags.ipynb
+  product:
+    df: output/tags-df.parquet
+    df_tagged: output/tags-df_tagged.parquet
+    nb: output/tags.ipynb
+
+- source: tasks/tracks-tagged-as-rock-.ipynb
+  product:
+    nb: output/tracks-tagged-as-rock-.ipynb
