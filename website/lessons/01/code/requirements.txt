@@ -6,3 +6,4 @@ pytest
 soorgeon
 ploomber
 pyarrow
+debuglater
