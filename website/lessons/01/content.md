@@ -16,11 +16,11 @@ Fun fact: this course is entirely developed from Jupyter!
 
 ### What you'll learn?
 
-- Write clean Jupyter notebooks
-- Version control
-- Testing (unit, integration)
-- Debugging
-- Build data pipelines from Jupyter
+- Write [clean](https://github.com/ploomber/notebooks-academy/blob/main/website/lessons/01/code/notebook.ipynb) Jupyter notebooks
+- [Version control](https://github.com/ploomber/notebooks-academy/blob/main/website/lessons/01/code/notebook.py)
+- Testing ([unit](https://github.com/ploomber/notebooks-academy/blob/main/website/lessons/01/code/test_notebook.py), integration)
+- [Debugging](https://github.com/ploomber/notebooks-academy/blob/main/website/lessons/01/code/debugging.ipynb)
+- Build [data pipelines](https://github.com/ploomber/notebooks-academy/tree/main/website/lessons/01/code/pipeline) from Jupyter
 - Cloud deployment
 
 ### Preparing your environment
