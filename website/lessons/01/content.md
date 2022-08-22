@@ -1,17 +1,20 @@
-# 1. Why? The prototype, then refactor problem
+# 1. Introduction
 
-## Motivation
+## Notes
 
-Introduction to the problem: Developing projects in single notebooks cause a lot of trouble. They are hard to maintain, test and review. However, if we follow some best practices, and with the help of some open-source tools, we can implement a workflow that allows us to go from Jupyter to production instantly.
+Jupyter notebooks are a fantastic tool: you can write some code and get immediate feedback. It makes data science a lot more enjoyable!
 
-* Something you've heard many times: notebooks are only for prototyping, you must move to python scripts for production
-* This course will demonstrate that you can use notebooks for production work and that's actually more productive
+Yet, they have problems: they can get hard to manage, reproduce and test. 
 
-* We'll walk through a mix of best practices and tools
+That's why many teams only allow their use for prototyping but do not use it in production.
 
-Fun fact: this course is being entirely developed from Jupyter!
+**This course will teach the practices and tools to use Jupyter notebooks as a tool for production work effectively.**
 
-## What you'll learn?
+At Ploomber, we've helped dozens of companies deploy notebooks into production: from small startups to Fortune 100 companies, so you're in good hands.
+
+Fun fact: this course is entirely developed from Jupyter!
+
+### What you'll learn?
 
 - Write clean Jupyter notebooks
 - Version control
@@ -20,15 +23,35 @@ Fun fact: this course is being entirely developed from Jupyter!
 - Build data pipelines from Jupyter
 - Cloud deployment
 
-## Preparing your environment
+### Preparing your environment
 
-## Commands used in the lesson
+To ensure you can run all the examples and get all the packages we'll use, we highly recommend installing miniconda.
+
+Ensure you're able to create a conda environment:
 
 ```sh
-cd website/lessons/01/code
+# create environment
+conda create --name some-env python=3.10 --yes
+
+# activate it
+conda activate some-env
 ```
 
-Convert `.ipynb` to `.py`
+You can also use other tools such as venv, but some packages might be harder to install. Whatever tool you choose, feel free to request help in the #notebooks-academy channel in our [Slack](https://ploomber.io/community).
+
+### Commands used in the lesson
+
+Here are the commands that we used during the video lesson:
+
+```sh
+# get the code
+git clone https://github.com/ploomber/notebooks-academy
+
+# move to the folder with the code
+cd notebooks-academy/website/lessons/01/code
+```
+
+Convert `.ipynb` to `.py`:
 
 ```sh
 pip install jupytext
@@ -38,6 +61,7 @@ jupytext notebook.ipynb --to py:percent
 Run unit tests:
 
 ```sh
+pip install pytest
 pytest test_notebook.py
 ```
 
@@ -52,11 +76,11 @@ cd pipeline
 soorgeon refactor ../notebook.ipynb --df-format parquet
 ```
 
-## Getting help
+### Get involved!
 
-[Join our community](https://ploomber.io/community), and ask us anything in the `#notebooks-academy` channel
+[Join our community](https://ploomber.io/community), and ask us anything in the `#notebooks-academy` channel. We'll be answering questions and getting feedback over there. Help us make this online course a success!
 
-## Recommended material
+### Recommended material
 
 - [Ploomber: Maintainable and Collaborative Pipelines in Jupyter](https://blog.jupyter.org/ploomber-maintainable-and-collaborative-pipelines-in-jupyter-acb3ad2101a7)
 - [Why (and how) to put notebooks in production](https://ploomber.io/blog/nbs-production)
