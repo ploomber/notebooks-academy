@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-- file: lessons/01-prototype-then-refactor.md
+- file: lessons/01/content.md
 - file: lessons/02-clean-nbs.md
 - file: lessons/03-version-control.md
 - file: lessons/04-hidden-state.md
