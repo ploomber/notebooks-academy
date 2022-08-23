@@ -31,7 +31,7 @@ Fun fact: this course is entirely developed from Jupyter!
 
 ### Preparing your environment
 
-To ensure you can run all the examples and get all the packages we'll use, we highly recommend installing miniconda.
+To ensure you can run all the examples and get all the packages we'll use, we highly recommend installing [miniconda.](https://docs.conda.io/en/latest/miniconda.html)
 
 Ensure you're able to create a conda environment:
 
