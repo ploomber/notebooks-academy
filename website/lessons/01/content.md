@@ -23,6 +23,12 @@ Fun fact: this course is entirely developed from Jupyter!
 - Build [data pipelines](https://github.com/ploomber/notebooks-academy/tree/main/website/lessons/01/code/pipeline) from Jupyter
 - Cloud deployment
 
+
+<div id="jupyterlab-div">
+  <a href="https://binder.ploomber.io/v2/gh/ploomber/binder-env/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fploomber%252Fnotebooks-academy%26urlpath%3Dlab%252Ftree%252Fnotebooks-academy%252Fwebsite%252Flessons%252F01%252Fcode%26branch%3Dmain" id="open-in-jupyterlab">Open in JupyterLab</a>
+</div>
+
+
 ### Preparing your environment
 
 To ensure you can run all the examples and get all the packages we'll use, we highly recommend installing miniconda.
