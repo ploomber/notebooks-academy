@@ -22,8 +22,6 @@ This online course will teach you how to use **Jupyter notebooks in a maintainab
 </div>
 
 
-<div class="newsletter-copy">First lesson out in August!</div>
-
 </div>
 
 
